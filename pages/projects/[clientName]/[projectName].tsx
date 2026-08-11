@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Layout from '../../../../components/Layout'
-import { getAllLessons, Lesson } from '../../../../lib/lessons'
+import Layout from '../../../components/Layout'
+import { getAllLessons, Lesson } from '../../../lib/lessons'
 import ReactMarkdown from 'react-markdown'
 
 export default function ProjectPage({ clientName, projectName, lessons }: { clientName: string; projectName: string; lessons: Lesson[] }) {
