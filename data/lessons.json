@@ -1,0 +1,778 @@
+[
+  {
+    "lessonId": 1,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 1",
+    "lesson": "There was a lack of clear communication regarding scope and deadlines with the Interior team, resulting in them being engaged at the last minute and asked to deliver their scope within a very short timeframe."
+  },
+  {
+    "lessonId": 2,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 1",
+    "lesson": "Bring Interior Design on board early to fully define the scope and allow meaningful engagement that can influence planning, wayfinding, journey mapping, and overall user experience."
+  },
+  {
+    "lessonId": 3,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 2",
+    "lesson": "Stantec Team members doing markups in Bluebeam when instead they could perform updates directly to the actual document, reducing double work."
+  },
+  {
+    "lessonId": 4,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 2",
+    "lesson": "The Planning Team undersized the cath labs triggering a replan of the entire floor."
+  },
+  {
+    "lessonId": 5,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 2",
+    "lesson": "Accepting a compressed timeline of 10 weeks when only limited team members had previous Sutter validation experience."
+  },
+  {
+    "lessonId": 6,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 2",
+    "lesson": "Structural posting late on every deliverable deadline."
+  },
+  {
+    "lessonId": 7,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Stantec BIM standards to be understood and implemented."
+  },
+  {
+    "lessonId": 8,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Functional Narrative and client staffing must be completed by the client."
+  },
+  {
+    "lessonId": 9,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Leverage previous Stantec experience to avoid reinventing the wheel."
+  },
+  {
+    "lessonId": 10,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Staffing must be clearly identified at the outset."
+  },
+  {
+    "lessonId": 11,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Consultant contracts should be in place to avoid delays."
+  },
+  {
+    "lessonId": 12,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Clear expectations should be established for trade partners."
+  },
+  {
+    "lessonId": 13,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Team check-ins should be documented and progressed."
+  },
+  {
+    "lessonId": 14,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Mentorship meetings to facilitate best practices continually."
+  },
+  {
+    "lessonId": 15,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Incorporate Design via charrettes, tools, design partners, team culture, and related approaches."
+  },
+  {
+    "lessonId": 16,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "vPlanner wasn't fully developed while work was being performed."
+  },
+  {
+    "lessonId": 17,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "Some consultants send information to only selective team members, leaving the rest of the team out of the loop."
+  },
+  {
+    "lessonId": 18,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "Promising tasks during live meetings to move on to other topics often requires re-hashing and re-explaining them later during Big Room meetings."
+  },
+  {
+    "lessonId": 19,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "The vPlanner cadence was not planned out well enough. Clarify what vPlanner is good for and improve task writing."
+  },
+  {
+    "lessonId": 20,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "Internal decisions were being re-done close to deadlines and changes in direction were not clearly communicated to team members."
+  },
+  {
+    "lessonId": 21,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Take a sharp look at existing conditions early to de-risk the project."
+  },
+  {
+    "lessonId": 22,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Need early proposals and validation to clearly demonstrate pricing before client negotiations."
+  },
+  {
+    "lessonId": 23,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Need to validate minimum room sizes for all typical rooms and create Revit blocks accordingly."
+  },
+  {
+    "lessonId": 24,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Lack of clear QA/QC of laser scans."
+  },
+  {
+    "lessonId": 25,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 6",
+    "lesson": "It needs to be clear in vPlanner when initial comments are due and when final comments are accepted."
+  },
+  {
+    "lessonId": 26,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 7",
+    "lesson": "On tight deadlines, both markups and direct document edits may be required to avoid confusion."
+  },
+  {
+    "lessonId": 27,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 8",
+    "lesson": "Internal team members are not always kept in the loop while working on overlapping tasks. Team communication could be improved."
+  },
+
+  {
+    "lessonId": 28,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 1",
+    "lesson": "Clearly define roles and ownership of major tasks."
+  },
+  {
+    "lessonId": 29,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 1",
+    "lesson": "Task owners should be responsible for coordination, follow-up, delegation, and seeing work through to completion."
+  },
+  {
+    "lessonId": 30,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "All models need a geodetic benchmark established prior to SD and DD phases."
+  },
+  {
+    "lessonId": 31,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Point cloud scans should be complete and aligned to the project origin."
+  },
+  {
+    "lessonId": 32,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Contractors should retain BIM coordination capabilities throughout the duration of the project."
+  },
+  {
+    "lessonId": 33,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "All projects should be maintained within a single ACC hub and bridging should be minimized."
+  },
+  {
+    "lessonId": 34,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Use defined Sutter standard partition families and repeatable partition tag nomenclature."
+  },
+  {
+    "lessonId": 35,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "All team members should have a working knowledge of drafting and be self-sufficient in Revit."
+  },
+  {
+    "lessonId": 36,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Reduce the number of required meetings to allow more time for production work."
+  },
+  {
+    "lessonId": 37,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Repeated planning revisions throughout the project significantly affected schedule and budget."
+  },
+  {
+    "lessonId": 38,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "All IFOA team members should be held accountable for their own scope and coordination responsibilities."
+  },
+  {
+    "lessonId": 39,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 3",
+    "lesson": "Inadequate time was allocated for coordination during DD and CD phases."
+  },
+  {
+    "lessonId": 40,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 3",
+    "lesson": "Project teams should account for evolving client standards throughout the project lifecycle."
+  },
+  {
+    "lessonId": 41,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 5",
+    "lesson": "Carefully review bids and ensure drawing scope is fully defined for accurate pricing."
+  },
+  {
+    "lessonId": 42,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 5",
+    "lesson": "Clearly communicate when additional funding is required for services such as renderings."
+  },
+  {
+    "lessonId": 43,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Coordination efforts started too late."
+  },
+  {
+    "lessonId": 44,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Regular coordination meetings are required to track progress between Architecture and Interiors teams."
+  },
+  {
+    "lessonId": 45,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Additional budget allocation to Interiors would support just-in-time coordination and reduce rework."
+  },
+  {
+    "lessonId": 46,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Staffing levels should be reviewed more frequently."
+  },
+  {
+    "lessonId": 47,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Regular client check-ins are needed to secure timely decisions."
+  },
+  {
+    "lessonId": 48,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Lack of clear roles and responsibilities caused confusion."
+  },
+  {
+    "lessonId": 49,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Limited user discussions contributed to project confusion."
+  },
+  {
+    "lessonId": 50,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "BIM best practices for families, materials and parameters should be established early."
+  },
+  {
+    "lessonId": 51,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 6",
+    "lesson": "Too many external meetings reduced time available for internal coordination."
+  },
+  {
+    "lessonId": 52,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "VDC coordination should begin earlier in the project."
+  },
+  {
+    "lessonId": 53,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Last-minute client requests need to be managed within schedule constraints."
+  },
+  {
+    "lessonId": 54,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Engineers responsible for stamping drawings should be identified earlier."
+  },
+  {
+    "lessonId": 55,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Project transitions require a structured handoff process."
+  },
+  {
+    "lessonId": 56,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Teams should maintain composure and professionalism during peak workload periods."
+  },
+  {
+    "lessonId": 57,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Staffing should be reassessed whenever project schedules change."
+  },
+  {
+    "lessonId": 58,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 8",
+    "lesson": "Deliverables require clear accountability and follow-through."
+  },
+  {
+    "lessonId": 59,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 9",
+    "lesson": "BIM best practices were not clearly established across the team."
+  },
+  {
+    "lessonId": 60,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 9",
+    "lesson": "There was inconsistency in the source of Revit families."
+  },
+  {
+    "lessonId": 61,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 9",
+    "lesson": "Timeline changes from DD to CD were not communicated clearly to the team."
+  },
+  {
+    "lessonId": 62,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 9",
+    "lesson": "Work delegation to the drafting team could have been managed better."
+  },
+  {
+    "lessonId": 63,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Many team members were unfamiliar with Autodesk Construction Cloud."
+  },
+  {
+    "lessonId": 64,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Duplicate files and Egnyte backups created duplicate folders and models."
+  },
+  {
+    "lessonId": 65,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Revit model hosting and synchronization issues occurred throughout the project."
+  },
+  {
+    "lessonId": 66,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Model publication processes created currency-of-information concerns."
+  },
+  {
+    "lessonId": 67,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Weekly model publishing was not frequent enough."
+  },
+  {
+    "lessonId": 68,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Manual publishing processes reduced efficiency."
+  },
+  {
+    "lessonId": 69,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "The ACC meeting module was not user friendly."
+  },
+  {
+    "lessonId": 70,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Confidence in meeting records was low."
+  },
+  {
+    "lessonId": 71,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Too many meetings reduced available production time."
+  },
+  {
+    "lessonId": 72,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "The project team was not looking ahead far enough and information often arrived late."
+  },
+  {
+    "lessonId": 73,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "The Last Planner process was not consistently followed."
+  },
+  {
+    "lessonId": 74,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "There appeared to be a lack of HCAI experience on the project."
+  },
+  {
+    "lessonId": 75,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "The transition of VDC responsibilities between consultants and XL was unclear."
+  },
+  {
+    "lessonId": 76,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Phasing coordination started too late."
+  },
+  {
+    "lessonId": 77,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Roles and responsibilities were often unclear or inconsistently applied."
+  },
+  {
+    "lessonId": 78,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Management responsibilities frequently conflicted with design and production responsibilities."
+  },
+  {
+    "lessonId": 79,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Poor performance by certain consultants delayed coordination."
+  },
+  {
+    "lessonId": 80,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Heads-down work time was frequently interrupted by meetings."
+  },
+  {
+    "lessonId": 81,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Tasks often took too long to reach resolution."
+  },
+  {
+    "lessonId": 82,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Planning assumptions were too tight and resulted in rework."
+  },
+  {
+    "lessonId": 83,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Follow-through across project silos was often lacking."
+  },
+  {
+    "lessonId": 84,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Insufficient time was available for peer reviews and incorporation of feedback."
+  },
+  {
+    "lessonId": 85,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Teams should work smarter to avoid unnecessary rework."
+  },
+  {
+    "lessonId": 86,
+    "projectNumber": "100001",
+    "projectName": "Sutter Roseville Expansion",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 10",
+    "lesson": "Merging the two projects was a good decision with minimal disruption."
+  }
+
+]
