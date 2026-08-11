@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Layout from '../../../components/Layout'
-import { getAllLessons } from '../../../lib/lessons'
+import Layout from '../../components/Layout'
+import { getAllLessons } from '../../lib/lessons'
 
 export default function ClientPage({ clientName, projects }: { clientName: string; projects: string[] }) {
   return (
