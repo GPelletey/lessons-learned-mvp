@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   const lessons = getAllLessons()
   const clients = Array.from(new Set(lessons.map((l) => l.client).filter(Boolean)))
   const paths = clients.map((client) => ({ params: { name: client } }))
-  return { paths, fallback: true }
+  return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params }: { params: { name: string } }) {
