@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
 import { getAllLessons, Lesson } from '../lib/lessons'
+import { getAllEnhancedLessons, aggregateKeywords } from '../lib/analytics'
 import { useState, useMemo } from 'react'
 
-export default function Home({ lessons, clients, phases }: { lessons: Lesson[]; clients: string[]; phases: string[] }) {
+export default function Home({ lessons, clients, phases, topKeywords }: { lessons: Lesson[]; clients: string[]; phases: string[]; topKeywords: any[] }) {
   const [query, setQuery] = useState('')
   const [selectedClient, setSelectedClient] = useState<string | null>(null)
   const [selectedPhase, setSelectedPhase] = useState<string | null>(null)
@@ -49,84 +50,99 @@ export default function Home({ lessons, clients, phases }: { lessons: Lesson[]; 
       <section>
         <p style={{ marginTop: 8 }}>Browse lessons learned from construction projects. Use search and filters to explore by client, project, or phase.</p>
 
-        <div style={{ margin: '12px 0' }}>
-          <input
-            aria-label="Search lessons"
-            placeholder="Search by project, client, phase, or text..."
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            style={{ width: '100%', padding: 8, fontSize: 16, borderRadius: 6, border: '1px solid #e5e7eb' }}
-          />
-        </div>
+        <div style={{ display: 'flex', gap: 20, marginTop: 12 }}>
+          <div style={{ flex: 1 }}>
+            <div style={{ margin: '12px 0' }}>
+              <input
+                aria-label="Search lessons"
+                placeholder="Search by project, client, phase, or text..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                style={{ width: '100%', padding: 8, fontSize: 16, borderRadius: 6, border: '1px solid #e5e7eb' }}
+              />
+            </div>
 
-        <div style={{ margin: '16px 0' }}>
-          <div style={{ marginBottom: 8 }}>
-            <strong>Filter by Client:</strong>
-            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 4 }}>
-              <button
-                onClick={() => setSelectedClient(null)}
-                style={{
-                  padding: '6px 12px',
-                  borderRadius: 4,
-                  border: selectedClient === null ? '2px solid #0366d6' : '1px solid #d1d9e0',
-                  background: selectedClient === null ? '#f0f6fc' : '#fff',
-                  cursor: 'pointer',
-                  fontSize: 14,
-                }}
-              >
-                All ({lessons.length})
-              </button>
-              {clients.map((client) => (
-                <button
-                  key={client}
-                  onClick={() => setSelectedClient(client)}
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: 4,
-                    border: selectedClient === client ? '2px solid #0366d6' : '1px solid #d1d9e0',
-                    background: selectedClient === client ? '#f0f6fc' : '#fff',
-                    cursor: 'pointer',
-                    fontSize: 14,
-                  }}
-                >
-                  {client} ({clientCounts[client] || 0})
-                </button>
-              ))}
+            <div style={{ margin: '16px 0' }}>
+              <div style={{ marginBottom: 8 }}>
+                <strong>Filter by Client:</strong>
+                <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 4 }}>
+                  <button
+                    onClick={() => setSelectedClient(null)}
+                    style={{
+                      padding: '6px 12px',
+                      borderRadius: 4,
+                      border: selectedClient === null ? '2px solid #0366d6' : '1px solid #d1d9e0',
+                      background: selectedClient === null ? '#f0f6fc' : '#fff',
+                      cursor: 'pointer',
+                      fontSize: 14,
+                    }}
+                  >
+                    All ({lessons.length})
+                  </button>
+                  {clients.map((client) => (
+                    <button
+                      key={client}
+                      onClick={() => setSelectedClient(client)}
+                      style={{
+                        padding: '6px 12px',
+                        borderRadius: 4,
+                        border: selectedClient === client ? '2px solid #0366d6' : '1px solid #d1d9e0',
+                        background: selectedClient === client ? '#f0f6fc' : '#fff',
+                        cursor: 'pointer',
+                        fontSize: 14,
+                      }}
+                    >
+                      {client} ({clientCounts[client] || 0})
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <strong>Filter by Phase:</strong>
+                <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 4 }}>
+                  <button
+                    onClick={() => setSelectedPhase(null)}
+                    style={{
+                      padding: '6px 12px',
+                      borderRadius: 4,
+                      border: selectedPhase === null ? '2px solid #0366d6' : '1px solid #d1d9e0',
+                      background: selectedPhase === null ? '#f0f6fc' : '#fff',
+                      cursor: 'pointer',
+                      fontSize: 14,
+                    }}
+                  >
+                    All ({lessons.length})
+                  </button>
+                  {phases.map((phase) => (
+                    <button
+                      key={phase}
+                      onClick={() => setSelectedPhase(phase)}
+                      style={{
+                        padding: '6px 12px',
+                        borderRadius: 4,
+                        border: selectedPhase === phase ? '2px solid #0366d6' : '1px solid #d1d9e0',
+                        background: selectedPhase === phase ? '#f0f6fc' : '#fff',
+                        cursor: 'pointer',
+                        fontSize: 14,
+                      }}
+                    >
+                      {phase} ({phaseCounts[phase] || 0})
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
-          <div>
-            <strong>Filter by Phase:</strong>
-            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 4 }}>
-              <button
-                onClick={() => setSelectedPhase(null)}
-                style={{
-                  padding: '6px 12px',
-                  borderRadius: 4,
-                  border: selectedPhase === null ? '2px solid #0366d6' : '1px solid #d1d9e0',
-                  background: selectedPhase === null ? '#f0f6fc' : '#fff',
-                  cursor: 'pointer',
-                  fontSize: 14,
-                }}
-              >
-                All ({lessons.length})
-              </button>
-              {phases.map((phase) => (
-                <button
-                  key={phase}
-                  onClick={() => setSelectedPhase(phase)}
-                  style={{
-                    padding: '6px 12px',
-                    borderRadius: 4,
-                    border: selectedPhase === phase ? '2px solid #0366d6' : '1px solid #d1d9e0',
-                    background: selectedPhase === phase ? '#f0f6fc' : '#fff',
-                    cursor: 'pointer',
-                    fontSize: 14,
-                  }}
-                >
-                  {phase} ({phaseCounts[phase] || 0})
-                </button>
-              ))}
+          <div style={{ flex: 1 }}>
+            <div className="card">
+              <h3>Top Keywords</h3>
+              <ul>
+                {topKeywords.slice(0, 12).map((k) => (
+                  <li key={k.keyword}>{k.keyword} — {k.count}</li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
@@ -151,5 +167,7 @@ export async function getStaticProps() {
   const lessons = getAllLessons()
   const clients = Array.from(new Set(lessons.map((l) => l.client).filter(Boolean)))
   const phases = Array.from(new Set(lessons.map((l) => l.phase).filter(Boolean)))
-  return { props: { lessons, clients, phases }, revalidate: 10 }
+  const enhanced = getAllEnhancedLessons()
+  const topKeywords = aggregateKeywords(enhanced, 50)
+  return { props: { lessons, clients, phases, topKeywords }, revalidate: 10 }
 }
