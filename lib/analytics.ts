@@ -1,5 +1,4 @@
-import fs from 'fs'
-import path from 'path'
+import lessonsData from '../data/lessons_ai_enhanced.json'
 
 export type EnhancedLesson = {
   lessonId: number
@@ -17,19 +16,10 @@ export type EnhancedLesson = {
   semanticKeywords?: string[]
 }
 
-const dataPath = path.join(process.cwd(), 'data', 'lessons_ai_enhanced.json')
-
 function readEnhancedSafe(): EnhancedLesson[] {
-  try {
-    if (!fs.existsSync(dataPath)) return []
-    const raw = fs.readFileSync(dataPath, 'utf-8')
-    const parsed = JSON.parse(raw)
-    if (Array.isArray(parsed)) return parsed as EnhancedLesson[]
-    return Object.values(parsed) as EnhancedLesson[]
-  } catch (e) {
-    console.error('Failed to read lessons_ai_enhanced.json', e)
-    return []
-  }
+  return Array.isArray(lessonsData)
+    ? (lessonsData as EnhancedLesson[])
+    : (Object.values(lessonsData) as EnhancedLesson[])
 }
 
 export function getAllEnhancedLessons(): EnhancedLesson[] {
