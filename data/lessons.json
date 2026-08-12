@@ -773,6 +773,132 @@
     "phase": "CD",
     "submittedBy": "Person 10",
     "lesson": "Merging the two projects was a good decision with minimal disruption."
+  },
+  {
+    "lessonId": 87,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "Early coordination with facility staff reduced the number of design revisions during review."
+  },
+  {
+    "lessonId": 88,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 1",
+    "lesson": "Standardized equipment layouts helped improve consistency across drawing packages."
+  },
+  {
+    "lessonId": 89,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Conducting validation workshops with stakeholders uncovered operational concerns before construction."
+  },
+  {
+    "lessonId": 90,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Regular interdisciplinary reviews minimized conflicts between architectural and MEP systems."
+  },
+  {
+    "lessonId": 91,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 4",
+    "lesson": "Documenting clinical workflows early provided better alignment between users and designers."
+  },
+  {
+    "lessonId": 92,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 1",
+    "lesson": "Providing clear sheet organization reduced review comments from consultants."
+  },
+  {
+    "lessonId": 93,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 3",
+    "lesson": "A structured decision log helped resolve stakeholder disagreements efficiently."
+  },
+  {
+    "lessonId": 94,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 5",
+    "lesson": "Weekly coordination meetings improved communication between project teams and consultants."
+  },
+  {
+    "lessonId": 95,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 2",
+    "lesson": "Creating mock-ups during validation ensured user requirements were accurately captured."
+  },
+  {
+    "lessonId": 96,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 4",
+    "lesson": "Maintaining a consistent detail library improved drawing quality and efficiency."
+  },
+  {
+    "lessonId": 97,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 1",
+    "lesson": "Engaging end users in walkthrough sessions resulted in stronger project buy-in."
+  },
+  {
+    "lessonId": 98,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 3",
+    "lesson": "Clear milestone tracking improved accountability and schedule adherence."
+  },
+  {
+    "lessonId": 99,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "Validation",
+    "submittedBy": "Person 5",
+    "lesson": "Validating room requirements against operational needs prevented scope changes later."
+  },
+  {
+    "lessonId": 100,
+    "projectNumber": "100002",
+    "projectName": "Sutter Sacramento Medical Office Renovation",
+    "client": "Sutter Health",
+    "phase": "CD",
+    "submittedBy": "Person 2",
+    "lesson": "Early document quality checks significantly reduced coordination issues before submission."
   }
 
 ]
